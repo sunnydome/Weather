@@ -1,0 +1,58 @@
+﻿<VerticalStackLayout  xmlns:c="clr-namespace:Weather.Converters"
+              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:m="clr-namespace:Weather.Models"
+              x:Class="Weather.Views.Next7DWidget">
+
+    <Label
+        Text="Daily Forecasts"
+        HorizontalOptions="Center"
+        class="SectionTitle"/>
+
+    <ScrollView Orientation="Horizontal">
+        <HorizontalStackLayout
+            Spacing="12"
+            HorizontalOptions="Center"
+            BindableLayout.ItemsSource="{Binding Week}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <Label Text="{Binding DateTime, StringFormat='{0:ddd}'}" class="Subhead"
+                               HeightRequest="34" HorizontalOptions="Center"/>
+
+                        <Image Source="{Binding Day.Phrase, StringFormat='{0:F2}.png'}"
+                               WidthRequest="34"
+                               HeightRequest="34"
+                               HorizontalOptions="Center"/>
+
+                        <Label
+                            Text="{Binding Temperature.Maximum.Value, StringFormat='{0:F0}°'}"
+                            class="Subhead" HorizontalOptions="Center" HeightRequest="20"/>
+
+                        <Label
+                            Text="{Binding Temperature.Minimum.Value, StringFormat='{0:F0}°'}"
+                            class="Subhead" HorizontalOptions="Center" HeightRequest="20"/>
+
+                        <BoxView class="HRule"/>
+                        <StackLayout
+                            Orientation="Horizontal"
+                            HeightRequest="40"
+                            HorizontalOptions="Center">
+                            <Image
+                                Source="sm_solid_umbrella.png"
+                                WidthRequest="16"
+                                HeightRequest="16"
+                                VerticalOptions="Center"/>
+                            <Label
+                                Text="13%" 
+                                class="SubContent" 
+                                VerticalOptions="Center"/>
+                        </StackLayout>
+
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</VerticalStackLayout>

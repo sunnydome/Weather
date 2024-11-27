@@ -1,0 +1,32 @@
+﻿<VerticalStackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Spacing="15"
+             xmlns:local="clr-namespace:Weather.Views"
+             x:Class="Weather.Views.CurrentWidget">
+
+    <VerticalStackLayout.BindingContext>
+        <local:MainPageViewModel />
+    </VerticalStackLayout.BindingContext>
+
+    <Image
+        WidthRequest="200"
+        HeightRequest="200"
+        HorizontalOptions="Center"
+        Aspect="AspectFit"
+        Source="weather_partly_cloudy_day.png">
+    </Image>
+
+    <Label
+        Text="22℃"
+        HorizontalOptions="Center"
+        class="Title1" />
+
+    <Label Text="{Binding CurrentDateWithDayOfWeek}" 
+           HorizontalOptions="Center" 
+           VerticalOptions="Center" 
+           FontSize="24" />
+    <Label Text="栖霞区 南京市 江苏省"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+
+</VerticalStackLayout>

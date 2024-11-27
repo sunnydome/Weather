@@ -1,0 +1,52 @@
+﻿<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:v="clr-namespace:Weather.Views"
+    Title="{OnIdiom '南京市 江苏省 中华人民共和国', Desktop=''}"
+    Shell.NavBarIsVisible="{OnPlatform True}"
+    x:Class="Weather.Pages.HomePage"
+    x:Name="this">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="选项">
+            <MenuFlyoutItem Text="退出" Command="{Binding QuitCommand}"/>
+        </MenuBarItem>
+        <MenuBarItem Text="位置">
+            <MenuFlyoutSubItem Text="修改城市">
+                <MenuFlyoutItem Text="南京市, 江苏"/>
+                <MenuFlyoutItem Text="北京市"/>
+                <MenuFlyoutItem Text="上海市"/>
+            </MenuFlyoutSubItem>
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+
+        <!-- Main content -->
+    <ScrollView Grid.Column="0">
+        <VerticalStackLayout
+            Padding="{OnIdiom Default='10,50'}"
+            Spacing="{OnIdiom Default=50}">
+                
+            <!-- Top widgets -->
+            <FlexLayout
+                IsVisible="{OnIdiom Default=True}"
+                MinimumHeightRequest="360"
+                AlignItems="Center"
+                AlignContent="Center"
+                JustifyContent="SpaceEvenly">
+                <v:CurrentWidget
+                    WidthRequest="400" />
+
+            </FlexLayout>
+
+            <BoxView HeightRequest="1" />
+
+            <v:Next24HrWidget />
+            <v:Next7DWidget />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+
+
+</ContentPage>
