@@ -70,13 +70,7 @@ public class HomeViewModel : INotifyPropertyChanged
                     DateTime = DateTime.Today.AddDays(6),
                     Day = new Day{ Phrase = "fluent_weather_partly_cloudy" },
                     Temperature = new Temperature{ Minimum = new Minimum{ Unit = "C", Value = 19 }, Maximum = new Maximum { Unit = "C", Value = 27 } },
-                },
-                new Forecast
-                {
-                    DateTime = DateTime.Today.AddDays(7),
-                    Day = new Day{ Phrase = "fluent_weather_rain_showers_day_20_filled" },
-                    Temperature = new Temperature{ Minimum = new Minimum{ Unit = "C", Value = 18 }, Maximum = new Maximum { Unit = "C", Value = 24 } },
-                },
+                }
             };
 
         Hours = new List<Forecast>
