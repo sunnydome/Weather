@@ -1,0 +1,1177 @@
+﻿Solution Weather.sln
+    Project Weather
+      Weather\App.xaml:3 代码不需要命名空间别名 'local'，可以安全地移除
+      Weather\App.xaml.cs:5 基类型 'Application' 已在其他部分中指定
+      Weather\App.xaml.cs:13 方法 'TapGestureRecognizer_Tapped' 从未被使用
+      Weather\App.xaml.cs:13 限定符冗余
+      Weather\App.xaml.cs:13 形参 'sender' 从未使用
+      Weather\App.xaml.cs:13 限定符冗余
+      Weather\App.xaml.cs:13 形参 'e' 从未使用
+      Weather\App.xaml.cs:17 冗余的字符串内插
+      Weather\Converters\ActiveTabConverter.cs:5 类 'ActiveTabConverter' 从未被使用
+      Weather\Converters\ImageByStateConverter.cs:10 可能出现 'System.NullReferenceException'
+      Weather\Converters\ImageByStateConverter.cs:12 可能出现 'System.NullReferenceException'
+      Weather\Models\AzureModels.cs:41 属性 'Phrase' 从未被使用
+      Weather\Models\AzureModels.cs:56 属性 'Night' 从未被使用
+      Weather\Models\AzureModels.cs:59 类 'ForecastsPayload' 从未被使用
+      Weather\Models\AzureModels.cs:62 属性 'Forecasts' 从未被使用
+      Weather\Pages\FavoritesPage.xaml:3 代码不需要命名空间别名 'v'，可以安全地移除
+      Weather\Pages\FavoritesPage.xaml:4 代码不需要命名空间别名 'm'，可以安全地移除
+      Weather\Pages\FavoritesPage.xaml:5 代码不需要命名空间别名 'c'，可以安全地移除
+      Weather\Pages\FavoritesPage.xaml.cs:3 基类型 'ContentPage' 已在其他部分中指定
+      Weather\Pages\HomePage.xaml:8 名称 'this' 与规则 'XAML 字段' 不匹配。建议的名称为 'This'。
+      Weather\Pages\HomePage.xaml:8 字段 'this' 从未使用
+      Weather\Pages\HomePage.xaml:24 附加属性 setter 'Grid.Column' 在当前上下文中不起任何作用，可以移除
+      Weather\Pages\HomePage.xaml.cs:6 基类型 'ContentPage' 已在其他部分中指定
+      Weather\Pages\HomePage.xaml.cs:8 名称 'isSetup' 与规则 'Static fields (private)' 不匹配。建议的名称为 '_isSetup'。
+      Weather\Pages\HomePage.xaml.cs:8 使用默认值初始化字段冗余
+      Weather\Pages\HomePage.xaml.cs:34 限定符冗余
+      Weather\Pages\HomePage.xaml.cs:36 实参未在格式字符串中使用
+      Weather\Pages\HomePage.xaml.cs:54 类 'MainPageViewModel' 从未被使用
+      Weather\Pages\HomePage.xaml.cs:56 属性 'CurrentDate' 从未被使用
+      Weather\Platforms\Windows\App.xaml:6 代码不需要命名空间别名 'local'，可以安全地移除
+      Weather\Platforms\Windows\App.xaml.cs:6 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows'
+      Weather\Platforms\Windows\App.xaml.cs:11 基类型 'MauiWinUIApplication' 已在其他部分中指定
+      Weather\Platforms\Windows\App.xaml.cs:24 冗余的方法重写
+      Weather\Platforms\Windows\MauiWinUIWindowExtensions.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows'
+      Weather\Platforms\Windows\MauiWinUIWindowExtensions.cs:5 标识符中存在拼写错误: 'Hwnd'
+      Weather\Platforms\Windows\MauiWinUIWindowExtensions.cs:7 方法 'SetIcon' 从未被使用
+      Weather\Platforms\Windows\MauiWinUIWindowExtensions.cs:15 类型转换冗余
+      Weather\Platforms\Windows\MauiWinUIWindowExtensions.cs:26 方法 'MinimizeToTray' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:12 枚举成员 'None' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:17 枚举成员 'Info' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:22 枚举成员 'Warning' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:27 枚举成员 'Error' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:39 枚举成员 'NoSound' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:44 注释中存在拼写错误: 'CXICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:44 注释中存在拼写错误: 'CYICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:45 注释中存在拼写错误: 'CXSMICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:45 注释中存在拼写错误: 'CYSMICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:47 注释中存在拼写错误: 'NIIF'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:48 注释中存在拼写错误: 'CXICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:48 注释中存在拼写错误: 'CYICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:51 注释中存在拼写错误: 'NIIF'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:52 注释中存在拼写错误: 'CXICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:52 注释中存在拼写错误: 'CYICON'
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:54 枚举成员 'LargeIcon' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\BalloonFlags.cs:59 枚举成员 'RespectQuietTime' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\IconDataMembers.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\IconDataMembers.cs:31 枚举成员 'State' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\IconDataMembers.cs:52 枚举成员 'Realtime' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\IconDataMembers.cs:57 注释中存在拼写错误: 'NOTIFYICON'
+      Weather\Platforms\Windows\NativeWindowing\IconDataMembers.cs:61 注释中存在拼写错误: 'SHOWTIP'
+      Weather\Platforms\Windows\NativeWindowing\IconDataMembers.cs:63 注释中存在拼写错误: 'SHOWTIP'
+      Weather\Platforms\Windows\NativeWindowing\IconDataMembers.cs:66 枚举成员 'UseLegacyToolTips' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\IconState.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\IconState.cs:12 枚举成员 'Visible' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\MouseEvent.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\MouseEvent.cs:45 语法错误: 'double clicked'
+      Weather\Platforms\Windows\NativeWindowing\NotifyCommand.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\NotifyCommand.cs:17 枚举成员 'Modify' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\NotifyCommand.cs:25 语法错误: 'Currently'
+      Weather\Platforms\Windows\NativeWindowing\NotifyCommand.cs:27 枚举成员 'SetFocus' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\NotifyCommand.cs:32 注释中存在拼写错误: 'lpdata'
+      Weather\Platforms\Windows\NativeWindowing\NotifyIconData.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\NotifyIconData.cs:126 形参 'iconFile' 在Hardcodet.Wpf.TaskbarNotification.Interop.NotifyIconData.CreateDefault的 XML 注释中没有匹配的 param 标记(但其他形参有)
+      Weather\Platforms\Windows\NativeWindowing\NotifyIconData.cs:139 注释中存在拼写错误: 'NOTIFYICONDATAW'
+      Weather\Platforms\Windows\NativeWindowing\NotifyIconData.cs:148 类型转换冗余
+      Weather\Platforms\Windows\NativeWindowing\Point.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:20 注释中存在拼写错误: 'taskar'
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:33 标识符中存在拼写错误: 'wparam'
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:33 标识符中存在拼写错误: 'lparam'
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:65 方法 'SetForegroundWindow' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:71 语法错误: 'double-click'
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:75 语法错误: 'double-click'
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:77 方法 'GetDoubleClickTime' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:84 方法 'GetPhysicalCursorPos' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\WinApi.cs:88 方法 'GetCursorPos' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\WindowClass.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\WindowClass.cs:12 注释中存在拼写错误: 'WNDCLASS'
+      Weather\Platforms\Windows\NativeWindowing\WindowClass.cs:21 标识符中存在拼写错误: 'lpfn'
+      Weather\Platforms\Windows\NativeWindowing\WindowInfo.cs:1 注释中存在拼写错误: 'hardcodet'
+      Weather\Platforms\Windows\NativeWindowing\WindowInfo.cs:2 注释中存在拼写错误: 'Sumi'
+      Weather\Platforms\Windows\NativeWindowing\WindowInfo.cs:6 注释中存在拼写错误: 'CPOL'
+      Weather\Platforms\Windows\NativeWindowing\WindowInfo.cs:27 注释中存在拼写错误: 'Hardcodet'
+      Weather\Platforms\Windows\NativeWindowing\WindowInfo.cs:47 注释中存在拼写错误: 'Hwnd'
+      Weather\Platforms\Windows\NativeWindowing\WindowInfo.cs:47 注释中存在拼写错误: 'Hwnd'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:1 注释中存在拼写错误: 'hardcodet'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:2 注释中存在拼写错误: 'Sumi'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:6 注释中存在拼写错误: 'CPOL'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:28 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:42 注释中存在拼写错误: 'RBUTTONDOWN'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:42 注释中存在拼写错误: 'RBUTTONUP'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:61 注释中存在拼写错误: 'LBUTTONDOWN'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:70 注释中存在拼写错误: 'LBUTTONUP'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:79 注释中存在拼写错误: 'LBUTTONDBLCLK'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:88 注释中存在拼写错误: 'RBUTTONDOWN'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:97 注释中存在拼写错误: 'RBUTTONUP'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:106 注释中存在拼写错误: 'RBUTTONDBLCLK'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:115 注释中存在拼写错误: 'MBUTTONDOWN'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:124 注释中存在拼写错误: 'MBUTTONUP'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:133 注释中存在拼写错误: 'MBUTTONDBLCLK'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:150 注释中存在拼写错误: 'NOTIFYICON'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:152 注释中存在拼写错误: 'RBUTTONDOWN'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:152 注释中存在拼写错误: 'RBUTTONUP'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:157 注释中存在拼写错误: 'NOTIFYICON'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:158 注释中存在拼写错误: 'SPACEBAR'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:159 注释中存在拼写错误: 'RBUTTONDOWN'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:159 注释中存在拼写错误: 'RBUTTONUP'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:172 注释中存在拼写错误: 'BALLOONHIDE'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessages.cs:172 注释中存在拼写错误: 'NIIF'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:1 注释中存在拼写错误: 'hardcodet'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:2 注释中存在拼写错误: 'Sumi'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:6 注释中存在拼写错误: 'CPOL'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:28 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:39 语法错误: 'the the'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:48 名称 'taskbarRestartMessageId' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_taskbarRestartMessageId'。
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:52 语法错误: 'double-click'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:55 名称 'isDoubleClick' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_isDoubleClick'。
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:60 语法错误: 'loose'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:63 名称 'messageHandler' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_messageHandler'。
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:79 属性 'Version' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:116 无法解析形参 'version'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:129 方法 'CreateEmpty' 从未被使用
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:213 无法解析符号'NotifyIconVersion'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:215 语法错误: 'Currently'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:217 形参 'wParam' 从未使用
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:314 注释中存在拼写错误: 'KEYSELECT'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:315 字符串中存在拼写错误: 'KEYSELECT'
+      Weather\Platforms\Windows\NativeWindowing\WindowMessageSink.cs:370 形参 'disposing' 从未使用
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows.NativeWindowing'
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:7 Consider changing the type of 'lockObject' field to 'System.Threading.Lock' to express field intent
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:7 名称 'lockObject' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_lockObject'。
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:7 Redundant type specification
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:10 名称 'iconData' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_iconData'。
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:15 名称 'messageSink' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_messageSink'。
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:30 注释中存在拼写错误: 'dotnetbot'
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:31 注释中存在拼写错误: 'LOADFROMFILE'
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:33 注释中存在拼写错误: 'SETICON'
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:82 注释中存在拼写错误: 'YAGNI'
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:113 类型转换冗余
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:122 Redundant type specification
+      Weather\Platforms\Windows\NativeWindowing\WindowsTrayIcon.cs:133 方法 'WriteIconData' 从未被使用
+      Weather\Platforms\Windows\NotificationService.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows'
+      Weather\Platforms\Windows\TrayService.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Platforms.Windows'
+      Weather\Platforms\Windows\TrayService.cs:7 名称 'tray' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_tray'。
+      Weather\Platforms\Windows\TrayService.cs:13 使用对象初始值设定项
+      Weather\Platforms\Windows\TrayService.cs:13 字符串中存在拼写错误: 'trayicon'
+      Weather\Resources\Styles\DefaultTheme.xaml:20 名称 'Text_Light' 与规则 'XAML 资源' 不匹配。建议的名称为 'TextLight'。
+      Weather\Resources\Styles\DefaultTheme.xaml:21 名称 'Text_Dark' 与规则 'XAML 资源' 不匹配。建议的名称为 'TextDark'。
+      Weather\Resources\Styles\DefaultTheme.xaml:22 名称 'TextOnSolid_Light' 与规则 'XAML 资源' 不匹配。建议的名称为 'TextOnSolidLight'。
+      Weather\Resources\Styles\DefaultTheme.xaml:23 名称 'TextOnSolid_Dark' 与规则 'XAML 资源' 不匹配。建议的名称为 'TextOnSolidDark'。
+      Weather\Resources\Styles\DefaultTheme.xaml:24 名称 'TextSecondary_Light' 与规则 'XAML 资源' 不匹配。建议的名称为 'TextSecondaryLight'。
+      Weather\Resources\Styles\DefaultTheme.xaml:25 名称 'TextSecondary_Dark' 与规则 'XAML 资源' 不匹配。建议的名称为 'TextSecondaryDark'。
+      Weather\Resources\Styles\DefaultTheme.xaml:26 名称 'Background_Dark' 与规则 'XAML 资源' 不匹配。建议的名称为 'BackgroundDark'。
+      Weather\Resources\Styles\DefaultTheme.xaml:27 名称 'Background_Mid' 与规则 'XAML 资源' 不匹配。建议的名称为 'BackgroundMid'。
+      Weather\Resources\Styles\DefaultTheme.xaml:28 名称 'Accent_Yellow100' 与规则 'XAML 资源' 不匹配。建议的名称为 'AccentYellow100'。
+      Weather\Resources\Styles\DefaultTheme.xaml:29 名称 'Accent_Yellow200' 与规则 'XAML 资源' 不匹配。建议的名称为 'AccentYellow200'。
+      Weather\Resources\Styles\DefaultTheme.xaml:30 名称 'Accent_Blue100' 与规则 'XAML 资源' 不匹配。建议的名称为 'AccentBlue100'。
+      Weather\Resources\Styles\DefaultTheme.xaml:31 名称 'Accent_Blue200' 与规则 'XAML 资源' 不匹配。建议的名称为 'AccentBlue200'。
+      Weather\Resources\Styles\DefaultTheme.xaml:342 类 'Microsoft.Maui.Controls.Frame' 已过时: 'Frame is obsolete as of .NET 9. Please use Border instead.'
+      Weather\Resources\Styles\DefaultTheme.xaml.cs:3 类 'DefaultTheme' 从未被使用
+      Weather\Resources\Styles\DefaultTheme.xaml.cs:3 基类型 'ResourceDictionary' 已在其他部分中指定
+      Weather\Resources\Styles\IconFont.cs:7 常量 'Ad' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:8 常量 'AddressBook' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:9 常量 'AddressCard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:10 常量 'Adjust' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:11 常量 'AirFreshener' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:12 常量 'AlignCenter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:13 常量 'AlignJustify' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:14 常量 'AlignLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:15 常量 'AlignRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:16 常量 'Allergies' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:17 常量 'Ambulance' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:18 常量 'AmericanSignLanguageInterpreting' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:19 常量 'Anchor' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:20 常量 'AngleDoubleDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:21 常量 'AngleDoubleLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:22 常量 'AngleDoubleRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:23 常量 'AngleDoubleUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:24 常量 'AngleDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:25 常量 'AngleLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:26 常量 'AngleRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:27 常量 'AngleUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:28 常量 'Angry' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:29 常量 'Ankh' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:30 常量 'AppleAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:31 常量 'Archive' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:32 常量 'Archway' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:33 常量 'ArrowAltCircleDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:34 常量 'ArrowAltCircleLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:35 常量 'ArrowAltCircleRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:36 常量 'ArrowAltCircleUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:37 常量 'ArrowCircleDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:38 常量 'ArrowCircleLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:39 常量 'ArrowCircleRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:40 常量 'ArrowCircleUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:41 常量 'ArrowDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:42 常量 'ArrowLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:43 常量 'ArrowRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:44 常量 'ArrowUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:45 常量 'ArrowsAltH' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:46 常量 'ArrowsAltV' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:47 常量 'ArrowsAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:48 常量 'AssistiveListeningSystems' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:49 常量 'Asterisk' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:51 常量 'Atlas' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:52 常量 'Atom' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:53 常量 'AudioDescription' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:54 常量 'Award' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:55 常量 'BabyCarriage' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:56 常量 'Baby' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:57 常量 'Backspace' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:58 常量 'Backward' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:59 常量 'BalanceScale' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:60 常量 'Ban' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:61 常量 'BandAid' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:62 常量 'Barcode' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:63 常量 'Bars' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:64 常量 'BaseballBall' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:65 常量 'BasketballBall' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:66 常量 'Bath' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:67 常量 'BatteryEmpty' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:68 常量 'BatteryFull' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:69 常量 'BatteryHalf' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:70 常量 'BatteryQuarter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:71 常量 'BatteryThreeQuarters' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:72 常量 'Bed' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:73 常量 'Beer' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:74 常量 'BellSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:75 常量 'Bell' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:76 常量 'BezierCurve' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:77 常量 'Bible' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:78 常量 'Bicycle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:79 常量 'Binoculars' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:80 常量 'Biohazard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:81 常量 'BirthdayCake' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:82 常量 'BlenderPhone' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:83 常量 'Blender' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:84 常量 'Blind' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:85 常量 'Blog' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:86 常量 'Bold' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:87 常量 'Bolt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:88 常量 'Bomb' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:89 常量 'Bone' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:90 常量 'Bong' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:91 常量 'BookDead' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:92 常量 'BookOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:93 常量 'BookReader' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:94 常量 'Book' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:95 常量 'Bookmark' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:96 常量 'BowlingBall' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:97 常量 'BoxOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:98 常量 'Box' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:99 常量 'Boxes' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:100 常量 'Braille' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:101 常量 'Brain' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:102 常量 'BriefcaseMedical' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:103 常量 'Briefcase' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:104 常量 'BroadcastTower' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:105 常量 'Broom' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:106 常量 'Brush' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:107 常量 'Bug' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:108 常量 'Building' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:109 常量 'Bullhorn' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:110 常量 'Bullseye' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:111 常量 'Burn' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:112 常量 'BusAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:113 常量 'Bus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:114 常量 'BusinessTime' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:115 常量 'Calculator' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:116 常量 'CalendarAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:117 常量 'CalendarCheck' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:118 常量 'CalendarDay' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:119 常量 'CalendarMinus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:120 常量 'CalendarPlus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:121 常量 'CalendarTimes' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:122 常量 'CalendarWeek' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:123 常量 'Calendar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:124 常量 'CameraRetro' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:125 常量 'Camera' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:126 常量 'Campground' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:127 常量 'CandyCane' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:128 常量 'Cannabis' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:129 常量 'Capsules' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:130 常量 'CarAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:131 常量 'CarBattery' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:132 常量 'CarCrash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:133 常量 'CarSide' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:134 常量 'Car' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:135 常量 'CaretDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:136 常量 'CaretLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:137 常量 'CaretRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:138 常量 'CaretSquareDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:139 常量 'CaretSquareLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:140 常量 'CaretSquareRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:141 常量 'CaretSquareUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:142 常量 'CaretUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:143 常量 'Carrot' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:144 常量 'CartArrowDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:145 常量 'CartPlus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:146 常量 'CashRegister' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:147 常量 'Cat' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:148 常量 'Certificate' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:149 常量 'Chair' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:150 常量 'ChalkboardTeacher' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:151 常量 'Chalkboard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:152 常量 'ChargingStation' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:153 常量 'ChartArea' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:154 常量 'ChartBar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:155 常量 'ChartLine' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:156 常量 'ChartPie' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:157 常量 'CheckCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:158 常量 'CheckDouble' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:159 常量 'CheckSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:160 常量 'Check' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:161 常量 'ChessBishop' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:162 常量 'ChessBoard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:163 常量 'ChessKing' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:164 常量 'ChessKnight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:165 常量 'ChessPawn' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:166 常量 'ChessQueen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:167 常量 'ChessRook' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:168 常量 'Chess' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:169 常量 'ChevronCircleDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:170 常量 'ChevronCircleLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:171 常量 'ChevronCircleRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:172 常量 'ChevronCircleUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:173 常量 'ChevronDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:174 常量 'ChevronLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:175 常量 'ChevronRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:176 常量 'ChevronUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:177 常量 'Child' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:178 常量 'Church' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:179 常量 'CircleNotch' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:180 常量 'Circle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:181 常量 'City' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:182 常量 'ClipboardCheck' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:183 常量 'ClipboardList' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:184 常量 'Clipboard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:185 常量 'Clock' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:186 常量 'Clone' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:187 常量 'ClosedCaptioning' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:188 常量 'CloudDownloadAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:189 常量 'CloudMeatball' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:190 常量 'CloudMoonRain' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:191 常量 'CloudMoon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:192 常量 'CloudRain' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:193 常量 'CloudShowersHeavy' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:194 常量 'CloudSunRain' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:195 常量 'CloudSun' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:196 常量 'CloudUploadAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:197 常量 'Cloud' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:198 常量 'Cocktail' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:199 常量 'CodeBranch' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:200 常量 'Code' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:201 常量 'Coffee' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:202 常量 'Cog' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:203 常量 'Cogs' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:204 常量 'Coins' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:205 常量 'Columns' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:206 常量 'CommentAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:207 常量 'CommentDollar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:208 常量 'CommentDots' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:209 常量 'CommentSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:210 常量 'Comment' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:211 常量 'CommentsDollar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:212 常量 'Comments' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:213 常量 'CompactDisc' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:214 常量 'Compass' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:215 常量 'CompressArrowsAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:216 常量 'Compress' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:217 常量 'ConciergeBell' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:218 常量 'CookieBite' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:219 常量 'Cookie' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:220 常量 'Copy' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:221 常量 'Copyright' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:222 常量 'Couch' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:223 常量 'CreditCard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:224 常量 'CropAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:225 常量 'Crop' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:226 常量 'Cross' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:227 常量 'Crosshairs' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:227 标识符中存在拼写错误: 'Crosshairs'
+      Weather\Resources\Styles\IconFont.cs:228 常量 'Crow' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:229 常量 'Crown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:230 常量 'Cube' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:231 常量 'Cubes' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:232 常量 'Cut' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:233 常量 'Database' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:234 常量 'Deaf' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:235 常量 'Democrat' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:236 常量 'Desktop' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:237 常量 'Dharmachakra' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:237 标识符中存在拼写错误: 'Dharmachakra'
+      Weather\Resources\Styles\IconFont.cs:238 常量 'Diagnoses' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:239 常量 'DiceD20' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:240 常量 'DiceD6' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:241 常量 'DiceFive' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:242 常量 'DiceFour' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:243 常量 'DiceOne' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:244 常量 'DiceSix' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:245 常量 'DiceThree' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:246 常量 'DiceTwo' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:247 常量 'Dice' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:248 常量 'DigitalTachograph' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:249 常量 'Directions' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:250 常量 'Divide' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:251 常量 'Dizzy' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:252 常量 'Dna' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:253 常量 'Dog' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:254 常量 'DollarSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:255 常量 'DollyFlatbed' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:256 常量 'Dolly' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:257 常量 'Donate' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:258 常量 'DoorClosed' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:259 常量 'DoorOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:261 常量 'Dove' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:262 常量 'Download' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:263 常量 'DraftingCompass' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:264 常量 'Dragon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:265 常量 'DrawPolygon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:266 常量 'DrumSteelpan' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:266 标识符中存在拼写错误: 'Steelpan'
+      Weather\Resources\Styles\IconFont.cs:267 常量 'Drum' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:268 常量 'DrumstickBite' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:269 常量 'Dumbbell' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:270 常量 'DumpsterFire' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:271 常量 'Dumpster' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:272 常量 'Dungeon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:273 常量 'Edit' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:274 常量 'Eject' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:275 常量 'EllipsisH' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:276 常量 'EllipsisV' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:277 常量 'EnvelopeOpenText' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:278 常量 'EnvelopeOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:279 常量 'EnvelopeSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:280 常量 'Envelope' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:281 常量 'EqualsSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:282 常量 'Eraser' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:283 常量 'Ethernet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:284 常量 'EuroSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:285 常量 'ExchangeAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:286 常量 'ExclamationCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:287 常量 'ExclamationTriangle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:288 常量 'Exclamation' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:289 常量 'ExpandArrowsAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:290 常量 'Expand' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:291 常量 'ExternalLinkAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:292 常量 'ExternalLinkSquareAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:293 常量 'EyeDropper' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:294 常量 'EyeSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:295 常量 'Eye' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:296 常量 'FastBackward' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:297 常量 'FastForward' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:298 常量 'Fax' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:299 常量 'FeatherAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:300 常量 'Feather' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:301 常量 'Female' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:302 常量 'FighterJet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:303 常量 'FileAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:304 常量 'FileArchive' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:305 常量 'FileAudio' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:306 常量 'FileCode' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:307 常量 'FileContract' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:308 常量 'FileCsv' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:309 常量 'FileDownload' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:310 常量 'FileExcel' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:311 常量 'FileExport' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:312 常量 'FileImage' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:313 常量 'FileImport' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:314 常量 'FileInvoiceDollar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:315 常量 'FileInvoice' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:316 常量 'FileMedicalAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:317 常量 'FileMedical' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:318 常量 'FilePdf' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:319 常量 'FilePowerpoint' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:320 常量 'FilePrescription' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:321 常量 'FileSignature' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:322 常量 'FileUpload' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:323 常量 'FileVideo' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:324 常量 'FileWord' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:325 常量 'File' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:326 常量 'FillDrip' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:327 常量 'Fill' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:328 常量 'Film' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:329 常量 'Filter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:330 常量 'Fingerprint' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:331 常量 'FireAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:332 常量 'FireExtinguisher' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:333 常量 'Fire' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:334 常量 'FirstAid' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:335 常量 'Fish' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:336 常量 'FistRaised' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:337 常量 'FlagCheckered' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:338 常量 'FlagUsa' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:339 常量 'Flag' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:340 常量 'Flask' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:341 常量 'Flushed' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:342 常量 'FolderMinus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:343 常量 'FolderOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:344 常量 'FolderPlus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:345 常量 'Folder' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:346 常量 'Font' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:347 常量 'FootballBall' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:348 常量 'Forward' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:349 常量 'Frog' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:350 常量 'FrownOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:351 常量 'Frown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:352 常量 'FunnelDollar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:353 常量 'Futbol' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:353 标识符中存在拼写错误: 'Futbol'
+      Weather\Resources\Styles\IconFont.cs:354 常量 'Gamepad' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:354 标识符中存在拼写错误: 'Gamepad'
+      Weather\Resources\Styles\IconFont.cs:355 常量 'GasPump' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:356 常量 'Gavel' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:357 常量 'Gem' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:358 常量 'Genderless' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:359 常量 'Ghost' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:360 常量 'Gift' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:361 常量 'Gifts' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:362 常量 'GlassCheers' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:363 常量 'GlassMartiniAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:364 常量 'GlassMartini' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:365 常量 'GlassWhiskey' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:366 常量 'Glasses' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:367 常量 'GlobeAfrica' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:368 常量 'GlobeAmericas' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:369 常量 'GlobeAsia' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:370 常量 'GlobeEurope' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:371 常量 'Globe' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:372 常量 'GolfBall' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:373 常量 'Gopuram' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:373 标识符中存在拼写错误: 'Gopuram'
+      Weather\Resources\Styles\IconFont.cs:374 常量 'GraduationCap' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:375 常量 'GreaterThanEqual' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:376 常量 'GreaterThan' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:377 常量 'Grimace' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:378 常量 'GrinAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:379 常量 'GrinBeamSweat' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:380 常量 'GrinBeam' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:381 常量 'GrinHearts' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:382 常量 'GrinSquintTears' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:383 常量 'GrinSquint' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:384 常量 'GrinStars' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:385 常量 'GrinTears' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:386 常量 'GrinTongueSquint' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:387 常量 'GrinTongueWink' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:388 常量 'GrinTongue' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:389 常量 'GrinWink' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:390 常量 'Grin' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:391 常量 'GripHorizontal' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:392 常量 'GripLinesVertical' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:393 常量 'GripLines' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:394 常量 'GripVertical' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:395 常量 'Guitar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:396 常量 'HSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:397 常量 'Hammer' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:398 常量 'Hamsa' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:398 标识符中存在拼写错误: 'Hamsa'
+      Weather\Resources\Styles\IconFont.cs:399 常量 'HandHoldingHeart' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:400 常量 'HandHoldingUsd' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:401 常量 'HandHolding' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:402 常量 'HandLizard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:403 常量 'HandPaper' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:404 常量 'HandPeace' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:405 常量 'HandPointDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:406 常量 'HandPointLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:407 常量 'HandPointRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:408 常量 'HandPointUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:409 常量 'HandPointer' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:410 常量 'HandRock' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:411 常量 'HandScissors' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:412 常量 'HandSpock' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:413 常量 'HandsHelping' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:414 常量 'Hands' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:415 常量 'Handshake' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:416 常量 'Hanukiah' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:416 标识符中存在拼写错误: 'Hanukiah'
+      Weather\Resources\Styles\IconFont.cs:417 常量 'Hashtag' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:418 常量 'HatWizard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:419 常量 'Haykal' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:419 标识符中存在拼写错误: 'Haykal'
+      Weather\Resources\Styles\IconFont.cs:420 常量 'Hdd' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:421 常量 'Heading' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:422 常量 'HeadphonesAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:423 常量 'Headphones' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:424 常量 'Headset' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:425 常量 'HeartBroken' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:426 常量 'Heart' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:427 常量 'Heartbeat' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:428 常量 'Helicopter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:429 常量 'Highlighter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:430 常量 'Hiking' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:431 常量 'Hippo' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:432 常量 'History' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:433 常量 'HockeyPuck' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:434 常量 'HollyBerry' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:435 常量 'Home' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:436 常量 'HorseHead' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:437 常量 'Horse' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:438 常量 'HospitalAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:439 常量 'HospitalSymbol' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:440 常量 'Hospital' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:441 常量 'HotTub' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:442 常量 'Hotel' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:443 常量 'HourglassEnd' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:444 常量 'HourglassHalf' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:445 常量 'HourglassStart' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:446 常量 'Hourglass' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:447 常量 'HouseDamage' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:448 常量 'Hryvnia' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:449 名称 'ICursor' 与规则 'Constant fields (not private)' 不匹配。建议的名称为 'Cursor'。
+      Weather\Resources\Styles\IconFont.cs:449 常量 'ICursor' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:450 常量 'Icicles' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:451 常量 'IdBadge' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:452 常量 'IdCardAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:453 常量 'IdCard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:454 常量 'Igloo' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:455 常量 'Image' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:456 常量 'Images' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:457 常量 'Inbox' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:458 常量 'Indent' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:459 常量 'Industry' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:460 常量 'Infinity' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:461 常量 'InfoCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:462 常量 'Info' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:463 常量 'Italic' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:464 常量 'Jedi' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:465 常量 'Joint' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:466 常量 'JournalWhills' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:466 标识符中存在拼写错误: 'Whills'
+      Weather\Resources\Styles\IconFont.cs:467 常量 'Kaaba' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:468 常量 'Key' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:469 常量 'Keyboard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:470 常量 'Khanda' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:470 标识符中存在拼写错误: 'Khanda'
+      Weather\Resources\Styles\IconFont.cs:471 常量 'KissBeam' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:472 常量 'KissWinkHeart' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:473 常量 'Kiss' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:474 常量 'KiwiBird' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:475 常量 'Landmark' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:476 常量 'Language' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:477 常量 'LaptopCode' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:478 常量 'Laptop' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:479 常量 'LaughBeam' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:480 常量 'LaughSquint' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:481 常量 'LaughWink' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:482 常量 'Laugh' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:483 常量 'LayerGroup' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:484 常量 'Leaf' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:485 常量 'Lemon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:486 常量 'LessThanEqual' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:487 常量 'LessThan' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:488 常量 'LevelDownAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:489 常量 'LevelUpAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:490 常量 'LifeRing' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:491 常量 'Lightbulb' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:492 常量 'Link' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:493 常量 'LiraSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:494 常量 'ListAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:495 常量 'ListOl' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:496 常量 'ListUl' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:497 常量 'List' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:498 常量 'LocationArrow' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:499 常量 'LockOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:500 常量 'Lock' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:501 常量 'LongArrowAltDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:502 常量 'LongArrowAltLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:503 常量 'LongArrowAltRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:504 常量 'LongArrowAltUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:505 常量 'LowVision' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:506 常量 'LuggageCart' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:507 常量 'Magic' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:508 常量 'Magnet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:509 常量 'MailBulk' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:510 常量 'Male' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:511 常量 'MapMarkedAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:512 常量 'MapMarked' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:513 常量 'MapMarkerAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:514 常量 'MapMarker' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:515 常量 'MapPin' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:516 常量 'MapSigns' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:517 常量 'Map' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:518 常量 'Marker' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:519 常量 'MarsDouble' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:520 常量 'MarsStrokeH' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:521 常量 'MarsStrokeV' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:522 常量 'MarsStroke' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:523 常量 'Mars' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:524 常量 'Mask' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:525 常量 'Medal' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:526 常量 'Medkit' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:526 标识符中存在拼写错误: 'Medkit'
+      Weather\Resources\Styles\IconFont.cs:527 常量 'MehBlank' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:528 常量 'MehRollingEyes' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:529 常量 'Meh' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:530 常量 'Memory' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:531 常量 'Menorah' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:532 常量 'Mercury' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:533 常量 'Meteor' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:534 常量 'Microchip' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:535 常量 'MicrophoneAltSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:536 常量 'MicrophoneAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:537 常量 'MicrophoneSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:538 常量 'Microphone' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:539 常量 'Microscope' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:540 常量 'MinusCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:541 常量 'MinusSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:542 常量 'Minus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:543 常量 'Mitten' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:544 常量 'MobileAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:545 常量 'Mobile' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:546 常量 'MoneyBillAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:547 常量 'MoneyBillWaveAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:548 常量 'MoneyBillWave' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:549 常量 'MoneyBill' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:550 常量 'MoneyCheckAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:551 常量 'MoneyCheck' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:552 常量 'Monument' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:553 常量 'Moon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:554 常量 'MortarPestle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:555 常量 'Mosque' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:556 常量 'Motorcycle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:557 常量 'Mountain' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:558 常量 'MousePointer' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:559 常量 'MugHot' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:560 常量 'Music' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:561 常量 'NetworkWired' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:562 常量 'Neuter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:563 常量 'Newspaper' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:564 常量 'NotEqual' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:565 常量 'NotesMedical' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:566 常量 'ObjectGroup' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:567 常量 'ObjectUngroup' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:568 常量 'OilCan' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:570 常量 'Otter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:571 常量 'Outdent' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:572 常量 'PaintBrush' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:573 常量 'PaintRoller' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:574 常量 'Palette' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:575 常量 'Pallet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:576 常量 'PaperPlane' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:577 常量 'Paperclip' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:578 常量 'ParachuteBox' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:579 常量 'Paragraph' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:580 常量 'Parking' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:581 常量 'Passport' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:582 常量 'Pastafarianism' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:582 标识符中存在拼写错误: 'Pastafarianism'
+      Weather\Resources\Styles\IconFont.cs:583 常量 'Paste' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:584 常量 'PauseCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:585 常量 'Pause' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:586 常量 'Paw' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:587 常量 'Peace' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:588 常量 'PenAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:589 常量 'PenFancy' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:590 常量 'PenNib' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:591 常量 'PenSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:592 常量 'Pen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:593 常量 'PencilAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:594 常量 'PencilRuler' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:595 常量 'PeopleCarry' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:596 常量 'Percent' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:597 常量 'Percentage' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:598 常量 'PersonBooth' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:599 常量 'PhoneSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:600 常量 'PhoneSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:601 常量 'PhoneVolume' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:602 常量 'Phone' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:603 常量 'PiggyBank' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:604 常量 'Pills' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:605 常量 'PlaceOfWorship' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:606 常量 'PlaneArrival' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:607 常量 'PlaneDeparture' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:608 常量 'Plane' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:609 常量 'PlayCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:610 常量 'Play' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:611 常量 'Plug' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:612 常量 'PlusCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:613 常量 'PlusSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:614 常量 'Plus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:615 常量 'Podcast' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:616 常量 'PollH' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:617 常量 'Poll' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:618 常量 'PooStorm' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:619 常量 'Poo' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:620 常量 'Poop' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:621 常量 'Portrait' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:622 常量 'PoundSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:623 常量 'PowerOff' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:624 常量 'Pray' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:625 常量 'PrayingHands' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:626 常量 'PrescriptionBottleAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:627 常量 'PrescriptionBottle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:628 常量 'Prescription' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:629 常量 'Print' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:630 常量 'Procedures' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:631 常量 'ProjectDiagram' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:632 常量 'PuzzlePiece' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:633 常量 'Qrcode' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:634 常量 'QuestionCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:635 常量 'Question' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:636 常量 'Quidditch' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:636 标识符中存在拼写错误: 'Quidditch'
+      Weather\Resources\Styles\IconFont.cs:637 常量 'QuoteLeft' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:638 常量 'QuoteRight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:639 常量 'Quran' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:640 常量 'RadiationAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:641 常量 'Radiation' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:642 常量 'Rainbow' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:643 常量 'Random' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:644 常量 'Receipt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:645 常量 'Recycle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:646 常量 'RedoAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:647 常量 'Redo' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:648 常量 'Registered' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:649 常量 'ReplyAll' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:650 常量 'Reply' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:651 常量 'Republican' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:652 常量 'Restroom' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:653 常量 'Retweet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:654 常量 'Ribbon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:655 常量 'Ring' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:656 常量 'Road' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:657 常量 'Robot' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:658 常量 'Rocket' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:659 常量 'Route' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:660 常量 'RssSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:661 常量 'Rss' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:662 常量 'RubleSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:663 常量 'RulerCombined' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:664 常量 'RulerHorizontal' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:665 常量 'RulerVertical' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:666 常量 'Ruler' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:667 常量 'Running' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:668 常量 'RupeeSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:669 常量 'SadCry' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:670 常量 'SadTear' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:671 常量 'SatelliteDish' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:672 常量 'Satellite' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:673 常量 'Save' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:674 常量 'School' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:675 常量 'Screwdriver' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:676 常量 'Scroll' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:677 常量 'SdCard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:678 常量 'SearchDollar' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:679 常量 'SearchLocation' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:680 常量 'SearchMinus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:681 常量 'SearchPlus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:683 常量 'Seedling' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:684 常量 'Server' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:685 常量 'Shapes' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:686 常量 'ShareAltSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:687 常量 'ShareAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:688 常量 'ShareSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:689 常量 'Share' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:690 常量 'ShekelSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:691 常量 'ShieldAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:692 常量 'Ship' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:693 常量 'ShippingFast' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:694 常量 'ShoePrints' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:695 常量 'ShoppingBag' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:696 常量 'ShoppingBasket' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:697 常量 'ShoppingCart' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:698 常量 'Shower' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:699 常量 'ShuttleVan' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:700 常量 'SignInAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:701 常量 'SignLanguage' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:702 常量 'SignOutAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:703 常量 'Sign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:704 常量 'Signal' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:705 常量 'Signature' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:706 常量 'SimCard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:707 常量 'Sitemap' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:708 常量 'Skating' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:709 常量 'SkiingNordic' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:710 常量 'Skiing' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:711 常量 'SkullCrossbones' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:712 常量 'Skull' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:713 常量 'Slash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:714 常量 'Sleigh' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:715 常量 'SlidersH' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:716 常量 'SmileBeam' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:717 常量 'SmileWink' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:718 常量 'Smile' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:719 常量 'Smog' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:720 常量 'SmokingBan' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:721 常量 'Smoking' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:722 常量 'Sms' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:723 常量 'Snowboarding' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:724 常量 'Snowflake' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:725 常量 'Snowman' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:726 常量 'Snowplow' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:727 常量 'Socks' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:728 常量 'SolarPanel' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:729 常量 'SortAlphaDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:730 常量 'SortAlphaUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:731 常量 'SortAmountDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:732 常量 'SortAmountUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:733 常量 'SortDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:734 常量 'SortNumericDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:735 常量 'SortNumericUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:736 常量 'SortUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:737 常量 'Sort' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:739 常量 'SpaceShuttle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:740 常量 'Spider' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:741 常量 'Spinner' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:742 常量 'Splotch' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:743 常量 'SprayCan' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:744 常量 'SquareFull' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:745 常量 'SquareRootAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:746 常量 'Square' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:747 常量 'Stamp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:748 常量 'StarAndCrescent' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:749 常量 'StarHalfAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:750 常量 'StarHalf' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:751 常量 'StarOfDavid' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:752 常量 'StarOfLife' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:753 常量 'Star' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:754 常量 'StepBackward' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:755 常量 'StepForward' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:756 常量 'Stethoscope' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:757 常量 'StickyNote' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:758 常量 'StopCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:759 常量 'Stopwatch' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:760 常量 'StoreAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:761 常量 'Store' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:762 常量 'Stream' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:763 常量 'StreetView' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:764 常量 'Strikethrough' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:765 常量 'Stroopwafel' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:765 标识符中存在拼写错误: 'Stroopwafel'
+      Weather\Resources\Styles\IconFont.cs:766 常量 'Subscript' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:767 常量 'Subway' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:768 常量 'SuitcaseRolling' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:769 常量 'Suitcase' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:770 常量 'Sun' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:771 常量 'Superscript' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:772 常量 'Surprise' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:773 常量 'Swatchbook' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:773 标识符中存在拼写错误: 'Swatchbook'
+      Weather\Resources\Styles\IconFont.cs:774 常量 'Swimmer' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:775 常量 'SwimmingPool' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:776 常量 'Synagogue' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:777 常量 'SyncAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:778 常量 'Sync' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:779 常量 'Syringe' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:780 常量 'TableTennis' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:781 常量 'Table' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:782 常量 'TabletAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:783 常量 'Tablet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:784 常量 'Tablets' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:785 常量 'TachometerAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:786 常量 'Tag' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:787 常量 'Tags' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:788 常量 'Tape' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:789 常量 'Tasks' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:790 常量 'Taxi' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:791 常量 'TeethOpen' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:792 常量 'Teeth' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:793 常量 'TemperatureHigh' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:794 常量 'TemperatureLow' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:795 常量 'Tenge' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:795 标识符中存在拼写错误: 'Tenge'
+      Weather\Resources\Styles\IconFont.cs:796 常量 'Terminal' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:797 常量 'TextHeight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:798 常量 'TextWidth' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:799 常量 'ThLarge' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:800 常量 'ThList' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:802 常量 'TheaterMasks' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:803 常量 'ThermometerEmpty' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:804 常量 'ThermometerFull' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:805 常量 'ThermometerHalf' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:806 常量 'ThermometerQuarter' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:807 常量 'ThermometerThreeQuarters' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:808 常量 'Thermometer' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:809 常量 'ThumbsDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:810 常量 'ThumbsUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:811 常量 'Thumbtack' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:812 常量 'TicketAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:813 常量 'TimesCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:814 常量 'Times' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:815 常量 'TintSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:816 常量 'Tint' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:817 常量 'Tired' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:818 常量 'ToggleOff' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:819 常量 'ToggleOn' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:820 常量 'ToiletPaper' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:821 常量 'Toilet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:822 常量 'Toolbox' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:823 常量 'Tools' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:824 常量 'Tooth' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:825 常量 'Torah' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:826 标识符中存在拼写错误: 'Torii'
+      Weather\Resources\Styles\IconFont.cs:826 常量 'ToriiGate' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:827 常量 'Tractor' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:828 常量 'Trademark' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:829 常量 'TrafficLight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:830 常量 'Train' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:831 常量 'Tram' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:832 常量 'TransgenderAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:833 常量 'Transgender' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:834 常量 'TrashAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:835 常量 'Trash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:836 常量 'Tree' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:837 常量 'Trophy' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:838 常量 'TruckLoading' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:839 常量 'TruckMonster' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:840 常量 'TruckMoving' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:841 常量 'TruckPickup' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:842 常量 'Truck' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:843 常量 'Tshirt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:843 标识符中存在拼写错误: 'Tshirt'
+      Weather\Resources\Styles\IconFont.cs:844 常量 'Tty' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:845 常量 'Tv' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:846 常量 'UmbrellaBeach' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:847 常量 'Umbrella' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:848 常量 'Underline' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:849 常量 'UndoAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:850 常量 'Undo' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:851 常量 'UniversalAccess' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:852 常量 'University' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:853 常量 'Unlink' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:854 常量 'UnlockAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:855 常量 'Unlock' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:856 常量 'Upload' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:857 常量 'UserAltSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:858 常量 'UserAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:859 常量 'UserAstronaut' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:860 常量 'UserCheck' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:861 常量 'UserCircle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:862 常量 'UserClock' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:863 常量 'UserCog' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:864 常量 'UserEdit' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:865 常量 'UserFriends' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:866 常量 'UserGraduate' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:867 常量 'UserInjured' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:868 常量 'UserLock' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:869 常量 'UserMd' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:870 常量 'UserMinus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:871 常量 'UserNinja' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:872 常量 'UserPlus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:873 常量 'UserSecret' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:874 常量 'UserShield' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:875 常量 'UserSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:876 常量 'UserTag' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:877 常量 'UserTie' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:878 常量 'UserTimes' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:879 常量 'User' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:880 常量 'UsersCog' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:881 常量 'Users' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:882 常量 'UtensilSpoon' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:883 常量 'Utensils' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:884 常量 'VectorSquare' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:885 常量 'VenusDouble' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:886 常量 'VenusMars' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:887 常量 'Venus' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:888 常量 'Vial' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:889 常量 'Vials' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:890 常量 'VideoSlash' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:891 常量 'Video' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:892 常量 'Vihara' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:892 标识符中存在拼写错误: 'Vihara'
+      Weather\Resources\Styles\IconFont.cs:893 常量 'VolleyballBall' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:894 常量 'VolumeDown' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:895 常量 'VolumeMute' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:896 常量 'VolumeOff' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:897 常量 'VolumeUp' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:898 常量 'VoteYea' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:899 常量 'VrCardboard' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:900 常量 'Walking' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:901 常量 'Wallet' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:902 常量 'Warehouse' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:903 常量 'Water' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:904 常量 'WeightHanging' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:905 常量 'Weight' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:906 常量 'Wheelchair' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:907 常量 'Wifi' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:908 常量 'Wind' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:909 常量 'WindowClose' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:910 常量 'WindowMaximize' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:911 常量 'WindowMinimize' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:912 常量 'WindowRestore' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:913 常量 'WineBottle' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:914 常量 'WineGlassAlt' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:915 常量 'WineGlass' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:916 常量 'WonSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:917 常量 'Wrench' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:918 常量 'XRay' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:919 常量 'YenSign' 从未被使用
+      Weather\Resources\Styles\IconFont.cs:920 常量 'YinYang' 从未被使用
+      Weather\Services\IWeatherService.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Services'
+      Weather\Services\IWeatherService.cs:5 方法 'GetLocations' 从未被使用
+      Weather\Services\IWeatherService.cs:6 方法 'GetWeather' 从未被使用
+      Weather\Services\ServiceExtensions.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Services'
+      Weather\Services\WeatherModel.cs:1 命名空间与文件位置不对应，必须为: 'Weather.Services'
+      Weather\Services\WeatherModel.cs:5 属性 'CurrentWeather' 从未被使用
+      Weather\Services\WeatherModel.cs:6 属性 'HourlyForecasts' 从未被使用
+      Weather\Services\WeatherModel.cs:7 属性 'DailyForecasts' 从未被使用
+      Weather\Services\WeatherModel.cs:14 属性 'Temperature' 从未被使用
+      Weather\Services\WeatherModel.cs:15 属性 'ChanceOfPercipitation' 从未被使用
+      Weather\Services\WeatherModel.cs:15 标识符中存在拼写错误: 'Percipitation'
+      Weather\Services\WeatherModel.cs:17 属性 'Date' 从未被使用
+      Weather\Services\WeatherModel.cs:19 代码主体不符合代码样式设置: 请使用表达式体
+      Weather\Services\WeatherModel.cs:22 属性 'IconPhrase' 从未被使用
+      Weather\Services\WeatherModel.cs:24 代码主体不符合代码样式设置: 请使用表达式体
+      Weather\Services\WeatherModel.cs:37 属性 'Minimum' 从未被使用
+      Weather\Services\WeatherModel.cs:38 属性 'Maximum' 从未被使用
+      Weather\Services\WeatherModel.cs:45 属性 'IconPhrase' 从未被使用
+      Weather\Services\WeatherModel.cs:47 代码主体不符合代码样式设置: 请使用表达式体
+      Weather\Services\WeatherModel.cs:54 属性 'Temperature' 从未被使用
+      Weather\Services\WeatherModel.cs:56 属性 'Day' 从未被使用
+      Weather\Services\WeatherModel.cs:57 属性 'Night' 从未被使用
+      Weather\Services\WeatherModel.cs:59 属性 'ChanceOfPercipitation' 从未被使用
+      Weather\Services\WeatherModel.cs:59 标识符中存在拼写错误: 'Percipitation'
+      Weather\Services\WeatherModel.cs:61 属性 'Date' 从未被使用
+      Weather\Services\WeatherModel.cs:63 代码主体不符合代码样式设置: 请使用表达式体
+      Weather\Services\WeatherModel.cs:67 类 'CurrentWeather' 从未被使用
+      Weather\Services\WeatherModel.cs:69 属性 'Results' 从未被使用
+      Weather\Services\WeatherModel.cs:72 类 'HourlyForecast' 从未被使用
+      Weather\Services\WeatherModel.cs:74 属性 'Forecasts' 从未被使用
+      Weather\Services\WeatherModel.cs:77 类 'DailyForecast' 从未被使用
+      Weather\Services\WeatherModel.cs:79 属性 'Forecasts' 从未被使用
+      Weather\Services\WeatherModel.cs:84 方法 'TryParse' 从未被使用
+      Weather\Services\WeatherService.cs:3 命名空间与文件位置不对应，必须为: 'Weather.Services'
+      Weather\Services\WeatherService.cs:5 类 'WeatherService' 从未被使用
+      Weather\Services\WeatherService.cs:7 名称 'locations' 与规则 'Static fields (private)' 不匹配。建议的名称为 '_locations'。
+      Weather\Services\WeatherService.cs:7 使用集合表达式
+      Weather\Services\WeatherService.cs:13 名称 'httpClient' 与规则 'Instance fields (private)' 不匹配。建议的名称为 '_httpClient'。
+      Weather\Services\WeatherService.cs:15 转换为主构造函数
+      Weather\ViewModels\HomeViewModel.cs:13 属性 'QuitCommand' 从未被使用
+      Weather\ViewModels\HomeViewModel.cs:13 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:15 可能出现 'System.NullReferenceException'
+      Weather\ViewModels\HomeViewModel.cs:18 属性 'ChangeLocationCommand' 从未被使用
+      Weather\ViewModels\HomeViewModel.cs:18 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:18 形参 'location' 从未使用
+      Weather\ViewModels\HomeViewModel.cs:32 使用集合表达式
+      Weather\ViewModels\HomeViewModel.cs:34 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:40 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:46 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:52 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:58 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:64 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:70 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:78 使用集合表达式
+      Weather\ViewModels\HomeViewModel.cs:80 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:86 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:93 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:100 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:107 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:113 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:119 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:125 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:131 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:137 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:143 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:149 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:155 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:161 Redundant type specification
+      Weather\ViewModels\HomeViewModel.cs:172 方法 'OnPropertyChanged' 从未被使用
+      Weather\Views\Next24HrWidget.xaml:3 代码不需要命名空间别名 'm'，可以安全地移除
+      Weather\Views\Next7DWidget.xaml:1 代码不需要命名空间别名 'c'，可以安全地移除
+      Weather\Views\Next7DWidget.xaml:4 代码不需要命名空间别名 'm'，可以安全地移除
+    
+  

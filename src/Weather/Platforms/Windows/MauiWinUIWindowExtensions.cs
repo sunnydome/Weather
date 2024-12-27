@@ -1,8 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using Microsoft.UI.Xaml;
-using WinRT;
-
-namespace Weather;
+﻿namespace Weather;
 
 public static class WindowExtensions
 {

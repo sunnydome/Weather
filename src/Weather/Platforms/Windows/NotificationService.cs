@@ -1,5 +1,4 @@
 ﻿using Microsoft.Toolkit.Uwp.Notifications;
-using Weather.Services;
 
 namespace Weather.WinUI;
 

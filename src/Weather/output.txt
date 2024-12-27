@@ -1,0 +1,255 @@
+﻿
+  正在确定要还原的项目…
+C:\code\Weather\src\Weather\Weather.csproj : warning NU1904: 包 "System.Drawing.Common" 4.7.0 具有已知的 严重 严重性漏洞，https://github.com/advisories/GHS
+A-rxg9-xrhp-64gj
+  所有项目均是最新的，无法还原。
+C:\code\Weather\src\Weather\Weather.csproj : warning NU1904: 包 "System.Drawing.Common" 4.7.0 具有已知的 严重 严重性漏洞，https://github.com/advisories/GHS
+A-rxg9-xrhp-64gj [TargetFramework=net9.0-windows10.0.19041.0]
+CSC : warning CA9998: FxCopAnalyzers package has been deprecated in favor of 'Microsoft.CodeAnalysis.NetAnalyzers', that ships with the .NET 
+SDK. Please refer to https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers to migrate to .NET an
+alyzers. (https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers) [C:\code\Weather\src\Weather\We
+ather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+CSC : warning CA9998: FxCopAnalyzers package has been deprecated in favor of 'Microsoft.CodeAnalysis.NetAnalyzers', that ships with the .NET 
+SDK. Please refer to https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers to migrate to .NET an
+alyzers. (https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers) [C:\code\Weather\src\Weather\We
+ather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+CSC : warning CA9998: FxCopAnalyzers package has been deprecated in favor of 'Microsoft.CodeAnalysis.NetAnalyzers', that ships with the .NET 
+SDK. Please refer to https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers to migrate to .NET an
+alyzers. (https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers) [C:\code\Weather\src\Weather\We
+ather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(6,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-ana
+lysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(7,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-ana
+lysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Models\AzureModels.cs(62,27): warning CA2227: 通过移除属性 setter 将“Forecasts”更改为只读 (https://docs.microsoft.com/dotnet/
+fundamentals/code-analysis/quality-rules/ca2227) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(8,25): warning CA1805: 成员“isSetup”已显式初始化为其默认值 (https://docs.microsoft.com/dotnet/fundament
+als/code-analysis/quality-rules/ca1805) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\ViewModels\HomeViewModel.cs(9,27): warning CA2227: 通过移除属性 setter 将“Week”更改为只读 (https://docs.microsoft.com/dotnet/
+fundamentals/code-analysis/quality-rules/ca2227) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(17,27): warning CA1044: 由于属性 Date 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属性转换为方法
+ (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::TargetFrame
+work=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(22,19): warning CA1044: 由于属性 IconPhrase 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属
+性转换为方法 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::Targe
+tFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\ViewModels\HomeViewModel.cs(11,27): warning CA2227: 通过移除属性 setter 将“Hours”更改为只读 (https://docs.microsoft.com/dotne
+t/fundamentals/code-analysis/quality-rules/ca2227) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(45,19): warning CA1044: 由于属性 IconPhrase 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属
+性转换为方法 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::Targe
+tFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(61,27): warning CA1044: 由于属性 Date 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属性转换为方法
+ (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::TargetFrame
+work=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(74,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-an
+alysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(69,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-an
+alysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(79,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-an
+alysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(56,34): warning CA1305: “DateTime.ToString(string)”的行为可能因当前用户的区域设置而异。请将“MainPageViewModel.
+CurrentDate.get”中的此调用替换为对“DateTime.ToString(string, IFormatProvider)”的调用。 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quali
+ty-rules/ca1305) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\App.xaml.cs(19,9): warning CA1031: 请修改“TapGestureRecognizer_Tapped”以捕获更具体的允许异常类型，或者重新抛出该异常 (https://docs.microsof
+t.com/dotnet/fundamentals/code-analysis/quality-rules/ca1031) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0
+.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(56,19): warning CA1822: 成员“CurrentDate”不访问实例数据，可标记为 static (https://docs.microsoft.com/dot
+net/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\App.xaml.cs(17,19): warning CA2007: 考虑对等待的任务调用 ConfigureAwait (https://docs.microsoft.com/dotnet/fundamentals/cod
+e-analysis/quality-rules/ca2007) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Converters\ImageByStateConverter.cs(12,13): warning CA1062: 在外部可见方法“object ImageByStateConverter.Convert(object v
+alue, Type targetType, object parameter, CultureInfo culture)”中，先验证参数“value”为非 null，然后再使用。如果适用，在参数为 null 时引发 ArgumentNullException，或添加断言非 nul
+l 参数的代码协定前提条件。 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1062) [C:\code\Weather\src\Weather\Weather.cspro
+j::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Converters\ImageByStateConverter.cs(10,26): warning CA1062: 在外部可见方法“object ImageByStateConverter.Convert(object v
+alue, Type targetType, object parameter, CultureInfo culture)”中，先验证参数“parameter”为非 null，然后再使用。如果适用，在参数为 null 时引发 ArgumentNullException，或添加断言非
+ null 参数的代码协定前提条件。 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1062) [C:\code\Weather\src\Weather\Weather.c
+sproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\CurrentWidget.xaml.cs(12,47): warning CA1305: “DateTime.ToString(string)”的行为可能因当前用户的区域设置而异。请将“MainPageViewM
+odel.CurrentDateWithDayOfWeek.get”中的此调用替换为对“DateTime.ToString(string, IFormatProvider)”的调用。 (https://docs.microsoft.com/dotnet/fundamentals/c
+ode-analysis/quality-rules/ca1305) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\CurrentWidget.xaml.cs(12,19): warning CA1822: 成员“CurrentDateWithDayOfWeek”不访问实例数据，可标记为 static (https://docs
+.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-wi
+ndows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(34,9): warning CA1031: 请修改“SetupAppActions”以捕获更具体的允许异常类型，或者重新抛出该异常 (https://docs.microsoft
+.com/dotnet/fundamentals/code-analysis/quality-rules/ca1031) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.
+19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(87,26): warning CA1062: 在外部可见方法“bool Coordinate.TryParse(string input, out Coordinate co
+ordinate)”中，先验证参数“input”为非 null，然后再使用。如果适用，在参数为 null 时引发 ArgumentNullException，或添加断言非 null 参数的代码协定前提条件。 (https://docs.microsoft.com/dotnet/fu
+ndamentals/code-analysis/quality-rules/ca1062) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(40,18): warning CA1822: 成员“SetupTrayIcon”不访问实例数据，可标记为 static (https://docs.microsoft.com/d
+otnet/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.
+0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(25,18): warning CA1822: 成员“SetupAppActions”不访问实例数据，可标记为 static (https://docs.microsoft.com
+/dotnet/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.1904
+1.0]
+C:\code\Weather\src\Weather\App.xaml(12,10): XamlC warning XC0618: Property, Property setter or BindableProperty "MainPage" is deprecated. [C
+:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml(11,39): XamlC warning XC0022: Binding could be compiled to improve runtime performance if x:D
+ataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\code\
+Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Resources\Styles\DefaultTheme.xaml(353,24): XamlC warning XC0022: Binding could be compiled to improve runtime pe
+rformance if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more inform
+ation. [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\CurrentWidget.xaml(24,12): XamlC warning XC0022: Binding could be compiled to improve runtime performance i
+f x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\
+code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(16,13): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(21,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(25,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(30,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(16,13): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(20,32): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(23,32): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(29,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(33,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+  Weather -> C:\code\Weather\src\Weather\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Weather.dll
+
+已成功生成。
+
+C:\code\Weather\src\Weather\Weather.csproj : warning NU1904: 包 "System.Drawing.Common" 4.7.0 具有已知的 严重 严重性漏洞，https://github.com/advisories/GHS
+A-rxg9-xrhp-64gj
+C:\code\Weather\src\Weather\Weather.csproj : warning NU1904: 包 "System.Drawing.Common" 4.7.0 具有已知的 严重 严重性漏洞，https://github.com/advisories/GHS
+A-rxg9-xrhp-64gj [TargetFramework=net9.0-windows10.0.19041.0]
+CSC : warning CA9998: FxCopAnalyzers package has been deprecated in favor of 'Microsoft.CodeAnalysis.NetAnalyzers', that ships with the .NET 
+SDK. Please refer to https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers to migrate to .NET an
+alyzers. (https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers) [C:\code\Weather\src\Weather\We
+ather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+CSC : warning CA9998: FxCopAnalyzers package has been deprecated in favor of 'Microsoft.CodeAnalysis.NetAnalyzers', that ships with the .NET 
+SDK. Please refer to https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers to migrate to .NET an
+alyzers. (https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers) [C:\code\Weather\src\Weather\We
+ather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+CSC : warning CA9998: FxCopAnalyzers package has been deprecated in favor of 'Microsoft.CodeAnalysis.NetAnalyzers', that ships with the .NET 
+SDK. Please refer to https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers to migrate to .NET an
+alyzers. (https://docs.microsoft.com/visualstudio/code-quality/migrate-from-fxcop-analyzers-to-net-analyzers) [C:\code\Weather\src\Weather\We
+ather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(6,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-ana
+lysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(7,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-ana
+lysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Models\AzureModels.cs(62,27): warning CA2227: 通过移除属性 setter 将“Forecasts”更改为只读 (https://docs.microsoft.com/dotnet/
+fundamentals/code-analysis/quality-rules/ca2227) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(8,25): warning CA1805: 成员“isSetup”已显式初始化为其默认值 (https://docs.microsoft.com/dotnet/fundament
+als/code-analysis/quality-rules/ca1805) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\ViewModels\HomeViewModel.cs(9,27): warning CA2227: 通过移除属性 setter 将“Week”更改为只读 (https://docs.microsoft.com/dotnet/
+fundamentals/code-analysis/quality-rules/ca2227) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(17,27): warning CA1044: 由于属性 Date 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属性转换为方法
+ (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::TargetFrame
+work=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(22,19): warning CA1044: 由于属性 IconPhrase 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属
+性转换为方法 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::Targe
+tFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\ViewModels\HomeViewModel.cs(11,27): warning CA2227: 通过移除属性 setter 将“Hours”更改为只读 (https://docs.microsoft.com/dotne
+t/fundamentals/code-analysis/quality-rules/ca2227) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(45,19): warning CA1044: 由于属性 IconPhrase 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属
+性转换为方法 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::Targe
+tFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(61,27): warning CA1044: 由于属性 Date 是只写的，因此，要么添加一个可访问性高于或等于 setter 的 getter 属性，要么将该属性转换为方法
+ (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044) [C:\code\Weather\src\Weather\Weather.csproj::TargetFrame
+work=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(74,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-an
+alysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(69,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-an
+alysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(79,30): warning CA1819: 属性不应返回数组 (https://docs.microsoft.com/dotnet/fundamentals/code-an
+alysis/quality-rules/ca1819) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(56,34): warning CA1305: “DateTime.ToString(string)”的行为可能因当前用户的区域设置而异。请将“MainPageViewModel.
+CurrentDate.get”中的此调用替换为对“DateTime.ToString(string, IFormatProvider)”的调用。 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quali
+ty-rules/ca1305) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\App.xaml.cs(19,9): warning CA1031: 请修改“TapGestureRecognizer_Tapped”以捕获更具体的允许异常类型，或者重新抛出该异常 (https://docs.microsof
+t.com/dotnet/fundamentals/code-analysis/quality-rules/ca1031) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0
+.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(56,19): warning CA1822: 成员“CurrentDate”不访问实例数据，可标记为 static (https://docs.microsoft.com/dot
+net/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\App.xaml.cs(17,19): warning CA2007: 考虑对等待的任务调用 ConfigureAwait (https://docs.microsoft.com/dotnet/fundamentals/cod
+e-analysis/quality-rules/ca2007) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Converters\ImageByStateConverter.cs(12,13): warning CA1062: 在外部可见方法“object ImageByStateConverter.Convert(object v
+alue, Type targetType, object parameter, CultureInfo culture)”中，先验证参数“value”为非 null，然后再使用。如果适用，在参数为 null 时引发 ArgumentNullException，或添加断言非 nul
+l 参数的代码协定前提条件。 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1062) [C:\code\Weather\src\Weather\Weather.cspro
+j::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Converters\ImageByStateConverter.cs(10,26): warning CA1062: 在外部可见方法“object ImageByStateConverter.Convert(object v
+alue, Type targetType, object parameter, CultureInfo culture)”中，先验证参数“parameter”为非 null，然后再使用。如果适用，在参数为 null 时引发 ArgumentNullException，或添加断言非
+ null 参数的代码协定前提条件。 (https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1062) [C:\code\Weather\src\Weather\Weather.c
+sproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\CurrentWidget.xaml.cs(12,47): warning CA1305: “DateTime.ToString(string)”的行为可能因当前用户的区域设置而异。请将“MainPageViewM
+odel.CurrentDateWithDayOfWeek.get”中的此调用替换为对“DateTime.ToString(string, IFormatProvider)”的调用。 (https://docs.microsoft.com/dotnet/fundamentals/c
+ode-analysis/quality-rules/ca1305) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\CurrentWidget.xaml.cs(12,19): warning CA1822: 成员“CurrentDateWithDayOfWeek”不访问实例数据，可标记为 static (https://docs
+.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-wi
+ndows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(34,9): warning CA1031: 请修改“SetupAppActions”以捕获更具体的允许异常类型，或者重新抛出该异常 (https://docs.microsoft
+.com/dotnet/fundamentals/code-analysis/quality-rules/ca1031) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.
+19041.0]
+C:\code\Weather\src\Weather\Services\WeatherModel.cs(87,26): warning CA1062: 在外部可见方法“bool Coordinate.TryParse(string input, out Coordinate co
+ordinate)”中，先验证参数“input”为非 null，然后再使用。如果适用，在参数为 null 时引发 ArgumentNullException，或添加断言非 null 参数的代码协定前提条件。 (https://docs.microsoft.com/dotnet/fu
+ndamentals/code-analysis/quality-rules/ca1062) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(40,18): warning CA1822: 成员“SetupTrayIcon”不访问实例数据，可标记为 static (https://docs.microsoft.com/d
+otnet/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.
+0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml.cs(25,18): warning CA1822: 成员“SetupAppActions”不访问实例数据，可标记为 static (https://docs.microsoft.com
+/dotnet/fundamentals/code-analysis/quality-rules/ca1822) [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.1904
+1.0]
+C:\code\Weather\src\Weather\App.xaml(12,10): XamlC warning XC0618: Property, Property setter or BindableProperty "MainPage" is deprecated. [C
+:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Pages\HomePage.xaml(11,39): XamlC warning XC0022: Binding could be compiled to improve runtime performance if x:D
+ataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\code\
+Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Resources\Styles\DefaultTheme.xaml(353,24): XamlC warning XC0022: Binding could be compiled to improve runtime pe
+rformance if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more inform
+ation. [C:\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\CurrentWidget.xaml(24,12): XamlC warning XC0022: Binding could be compiled to improve runtime performance i
+f x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\
+code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(16,13): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(21,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(25,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next24HrWidget.xaml(30,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance 
+if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:
+\code\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(16,13): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(20,32): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(23,32): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(29,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+C:\code\Weather\src\Weather\Views\Next7DWidget.xaml(33,29): XamlC warning XC0022: Binding could be compiled to improve runtime performance if
+ x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information. [C:\c
+ode\Weather\src\Weather\Weather.csproj::TargetFramework=net9.0-windows10.0.19041.0]
+    78 个警告
+    0 个错误
+
+已用时间 00:00:08.93
+
+有可用的工作负载更新。有关详细信息，请运行 `dotnet workload list`。
+
+

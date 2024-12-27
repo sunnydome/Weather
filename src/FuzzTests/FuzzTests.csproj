@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
+	  <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <UseLLVM>true</UseLLVM>
+	  <ClangToolPath>C:\Program Files\LLVM\bin</ClangToolPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Weather\Weather.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.11.0" />
+    <PackageReference Include="SharpFuzz" Version="2.1.1" />
+    <PackageReference Include="Xunit" Version="2.4.2" />
+  </ItemGroup>
+
+</Project>

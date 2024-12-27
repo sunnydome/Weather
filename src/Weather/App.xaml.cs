@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using Weather.Pages;
 
 namespace Weather;
 
@@ -11,11 +10,14 @@ public partial class App : Application
 
     }
 
-    async void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
+    async void TapGestureRecognizer_Tapped(Object sender, EventArgs e)
     {
-        try { 
+        try
+        {
             await Shell.Current.GoToAsync($"///settings");
-        }catch (Exception ex) {
+        }
+        catch (Exception ex)
+        {
             Debug.WriteLine($"err: {ex.Message}");
         }
     }

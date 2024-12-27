@@ -1,6 +1,4 @@
-﻿using Weather.ViewModels;
-
-namespace Weather.Pages;
+﻿namespace Weather.Pages;
 
 public partial class FavoritesPage : ContentPage
 {

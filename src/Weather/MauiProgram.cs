@@ -11,15 +11,18 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
-            .ConfigureFonts(fonts => {
+            .ConfigureFonts(fonts =>
+            {
                 fonts.AddFont("fa-solid-900.ttf", "FontAwesome");
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-SemiBold.ttf", "OpenSansSemiBold");
             });
-        builder.ConfigureLifecycleEvents(lifecycle => {
+        builder.ConfigureLifecycleEvents(lifecycle =>
+        {
 #if WINDOWS
 
-            lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
+            lifecycle.AddWindows(windows => windows.OnWindowCreated((del) =>
+            {
                 del.ExtendsContentIntoTitleBar = true;
             }));
 #endif
@@ -27,8 +30,8 @@ public static class MauiProgram
 
         var services = builder.Services;
 #if WINDOWS
-            services.AddSingleton<ITrayService, WinUI.TrayService>();
-            services.AddSingleton<INotificationService, WinUI.NotificationService>();
+        services.AddSingleton<ITrayService, WinUI.TrayService>();
+        services.AddSingleton<INotificationService, WinUI.NotificationService>();
 #endif
         services.AddSingleton<HomeViewModel>();
         services.AddSingleton<HomePage>();

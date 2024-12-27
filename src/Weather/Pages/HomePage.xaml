@@ -4,8 +4,7 @@
     xmlns:v="clr-namespace:Weather.Views"
     Title="{OnIdiom '南京市 江苏省 中华人民共和国', Desktop=''}"
     Shell.NavBarIsVisible="{OnPlatform True}"
-    x:Class="Weather.Pages.HomePage"
-    x:Name="this">
+    x:Class="Weather.Pages.HomePage">
     <ContentPage.MenuBarItems>
         <MenuBarItem Text="选项">
             <MenuFlyoutItem Text="退出" Command="{Binding QuitCommand}"/>

@@ -10,11 +10,13 @@ public class HomeViewModel : INotifyPropertyChanged
 
     public List<Forecast> Hours { get; set; }
 
-    public Command QuitCommand { get; set; } = new Command(() => {
+    public Command QuitCommand { get; set; } = new Command(() =>
+    {
         Application.Current.Quit();
     });
 
-    public Command<string> ChangeLocationCommand { get; set; } = new Command<string>((location) => {
+    public Command<string> ChangeLocationCommand { get; set; } = new Command<string>((location) =>
+    {
         // change primary location
     });
 

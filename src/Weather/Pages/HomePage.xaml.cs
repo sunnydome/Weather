@@ -1,9 +1,5 @@
 ﻿using System.Diagnostics;
-using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
-using Weather.Services;
 using Weather.ViewModels;
-using Application = Microsoft.Maui.Controls.Application;
-using WindowsConfiguration = Microsoft.Maui.Controls.PlatformConfiguration.Windows;
 
 namespace Weather.Pages;
 
@@ -37,7 +33,7 @@ public partial class HomePage : ContentPage
         }
         catch (System.Exception ex)
         {
-            Debug.WriteLine("App Actions not supported", ex);
+            Debug.WriteLine("App Actions not supported" + ex.ToString());
         }
     }
 

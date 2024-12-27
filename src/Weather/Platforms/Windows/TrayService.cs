@@ -1,6 +1,4 @@
 ﻿using Hardcodet.Wpf.TaskbarNotification.Interop;
-using Microsoft.UI.Xaml;
-using Weather.Services;
 
 namespace Weather.WinUI;
 
@@ -13,7 +11,8 @@ public class TrayService : ITrayService
     public void Initialize()
     {
         tray = new WindowsTrayIcon("Platforms/Windows/trayicon.ico");
-        tray.LeftClick = () => {
+        tray.LeftClick = () =>
+        {
             WindowExtensions.BringToFront();
             ClickHandler?.Invoke();
         };
